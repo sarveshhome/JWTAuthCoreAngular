@@ -1,0 +1,4 @@
+2021-04-17T12:09:41.2233253+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-04-17T12:09:41.2341524+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-04-17T12:09:41.2343647+01:00  [INF] Content root path: "C:\Users\sony\source\repos\MVCJWTTokenDemo\MVCJWTTokenDemo" (b5d60022)
+2021-04-17T12:09:44.5677434+01:00 80000002-0002-f900-b63f-84710c7967bb [INF] Log message in the GetProducts() method (739392ab)
