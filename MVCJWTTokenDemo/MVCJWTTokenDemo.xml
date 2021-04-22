@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MVCJWTTokenDemo</name>
+    </assembly>
+    <members>
+        <member name="M:MVCJWTTokenDemo.Controllers.productController.GetProducts">
+            <summary>
+            Get list of Product     
+            </summary>
+            <returns>this list of Product</returns>
+        </member>
+        <member name="M:MVCJWTTokenDemo.Controllers.productController.AddProduct(MVCJWTTokenDemo.Model.Product)">
+            <summary>Add List of Products</summary>
+             <remarks>
+               Simple request: 
+               POST api/products{
+                  "id": "001",
+                  "name": "Sony VPCCB Laptop",
+                  "brand": "Sony"  
+             }
+             </remarks>
+             <param name="Product"></param>
+             <response code="201">Returns the newly created item</response>
+             <response code="400">If the item is null</response> 
+        </member>
+    </members>
+</doc>
