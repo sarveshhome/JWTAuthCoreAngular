@@ -35,6 +35,32 @@ namespace MVCJWTTokenDemo
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            #region CORS
+            ///Type of CORS policy
+            /// 1.CORS with named policy and middleware
+            /// 2. CORS with default policy and middleware
+            /// 3. CORS with default policy and middleware
+            /// 4. Enable CORS with attributes 
+            #endregion
+
+            //CORS with default policy and middleware
+            //services.AddCors(options =>
+            //{
+            //    options.AddDefaultPolicy(
+            //        builder =>
+            //        {
+            //            builder.WithOrigins("http://localhost:4200",
+            //                                "https://localhost:4200");
+            //        });
+            //});
+
+            services.AddCors(o => o.AddPolicy("AllowMyOrigin", builder =>
+            {
+                builder.AllowAnyOrigin()
+                       .AllowAnyMethod()
+                       .AllowAnyHeader();
+            }));
+
             //Database add with code first 
             services.AddScoped<PatientDbContext>();
 
@@ -77,6 +103,9 @@ namespace MVCJWTTokenDemo
 
             app.UseRouting();
 
+            //CORS
+            //app.UseCors();
+            app.UseCors("AllowMyOrigin");
             app.UseAuthorization();
 
             //UseDefaultFiles must be called before UseStaticFiles to serve the default file.UseDefaultFiles is a URL rewriter that doesn't serve the file.

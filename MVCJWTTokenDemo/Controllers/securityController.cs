@@ -5,6 +5,7 @@ using System.Linq;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
@@ -14,6 +15,7 @@ namespace MVCJWTTokenDemo.Controllers
 {
     [ApiController]
     [Route("[controller]")]
+    [EnableCors("AllowMyOrigin")]
     public class securityController : ControllerBase
     {
         public IConfiguration _config = null;
@@ -50,9 +52,9 @@ namespace MVCJWTTokenDemo.Controllers
             {
                 string str = GenerateJSONWebToken();
 
-                return Content(str);
-
-                //return Ok();
+                //return Content(str);
+                var token = new Token() { Value = str };
+                return Ok(token);
             }
             else
             {
@@ -64,5 +66,10 @@ namespace MVCJWTTokenDemo.Controllers
     public class User
     {
         public string userName { get; set; }
+    }
+
+    public class Token
+    {
+        public string Value { get; set; }
     }
 }
