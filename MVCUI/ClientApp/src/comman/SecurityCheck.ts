@@ -4,7 +4,7 @@ import { Observable } from 'rxjs';
 import { Token } from './Security';
 
 @Injectable()
-export class SecurityActivate implements CanActivate {
+export class SecurityLogic implements CanActivate {
 
 
   constructor(private _router: Router, public _token: Token) {
@@ -16,7 +16,7 @@ export class SecurityActivate implements CanActivate {
     }
 
     // navigate to login page
-    this._router.navigate(['/patientlogin']);
+    this._router.navigate(['/Login']);
     // you can save redirect url so after authing we can move them back to the page they requested
     return false;
   }

@@ -12,7 +12,8 @@ import { FetchDataComponent } from './fetch-data/fetch-data.component';
 import { PatientaddComponent } from './patient/patientadd/patientadd.component';
 import { PatientloginComponent } from './patient/patientlogin/patientlogin.component';
 import { Token } from '../comman/security';
-import { SecurityActivate } from '../comman/SecurityActivate';
+
+import { SecurityLogic } from '../comman/SecurityCheck';
 
 @NgModule({
   declarations: [
@@ -29,14 +30,16 @@ import { SecurityActivate } from '../comman/SecurityActivate';
     HttpClientModule,
     FormsModule,
     RouterModule.forRoot([
-      { path: '', component: HomeComponent, pathMatch: 'full' },
+      //{ path: '', component: HomeComponent, pathMatch: 'full' },
+      { path: '', component: HomeComponent },
       { path: 'counter', component: CounterComponent },
       { path: 'fetch-data', component: FetchDataComponent },
       { path: 'patientlogin', component: PatientloginComponent },
-      { path: 'patientadd', component: PatientaddComponent, canActivate: [SecurityActivate] }
+      //{ path: 'patientadd', component: PatientaddComponent, canActivate: [SecurityLogic] }
+        { path: 'patientadd', component: PatientaddComponent }
     ])
   ],
-  providers: [Token, SecurityActivate],
+  providers: [Token, SecurityLogic],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
