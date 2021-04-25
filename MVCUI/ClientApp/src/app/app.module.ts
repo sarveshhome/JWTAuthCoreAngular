@@ -14,6 +14,7 @@ import { PatientloginComponent } from './patient/patientlogin/patientlogin.compo
 import { Token } from '../comman/security';
 import { AuthenticationGuard } from './authentication.guard';
 import { SecurityLogic } from '../comman/SecurityCheck';
+import { JwtInterceptor } from '../comman/jwt.interceptor';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,11 @@ import { SecurityLogic } from '../comman/SecurityCheck';
     ])
   ],
   //exports: [RouterModule], 
-  providers: [Token, SecurityLogic, AuthenticationGuard],
+  providers: [Token,
+              SecurityLogic,
+              AuthenticationGuard,
+              { provide: HTTP_INTERCEPTORS, useClass: JwtInterceptor, multi: true }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
