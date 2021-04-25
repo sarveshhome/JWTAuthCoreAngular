@@ -12,7 +12,7 @@ import { FetchDataComponent } from './fetch-data/fetch-data.component';
 import { PatientaddComponent } from './patient/patientadd/patientadd.component';
 import { PatientloginComponent } from './patient/patientlogin/patientlogin.component';
 import { Token } from '../comman/security';
-
+import { AuthenticationGuard } from './authentication.guard';
 import { SecurityLogic } from '../comman/SecurityCheck';
 
 @NgModule({
@@ -36,10 +36,11 @@ import { SecurityLogic } from '../comman/SecurityCheck';
       { path: 'fetch-data', component: FetchDataComponent },
       { path: 'patientlogin', component: PatientloginComponent },
       //{ path: 'patientadd', component: PatientaddComponent, canActivate: [SecurityLogic] }
-        { path: 'patientadd', component: PatientaddComponent }
+      { path: 'patientadd', component: PatientaddComponent, canActivate: [AuthenticationGuard] }
     ])
   ],
-  providers: [Token, SecurityLogic],
+  //exports: [RouterModule], 
+  providers: [Token, SecurityLogic, AuthenticationGuard],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
