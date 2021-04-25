@@ -60,6 +60,9 @@ namespace MVCJWTTokenDemo
                        .AllowAnyMethod()
                        .AllowAnyHeader();
             }));
+            //services.AddControllers().AddNewtonsoftJson(Options=> { 
+            //Options.SerializerSettings.Controller
+            //});
 
             //Database add with code first 
             services.AddScoped<PatientDbContext>();

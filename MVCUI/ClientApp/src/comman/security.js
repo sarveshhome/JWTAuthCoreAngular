@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 var Token = /** @class */ (function () {
     function Token() {
-        this.value = "sometoken";
+        this.value = '';
     }
     return Token;
 }());
