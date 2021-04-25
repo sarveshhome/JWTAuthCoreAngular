@@ -24,11 +24,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="ClientApp\src\comman\jwt.interceptor.ts" />
     <None Remove="ClientApp\src\comman\security.ts" />
     <None Remove="ClientApp\src\comman\SecurityCheck.ts" />
   </ItemGroup>
 
   <ItemGroup>
+    <TypeScriptCompile Include="ClientApp\src\comman\jwt.interceptor.ts" />
     <TypeScriptCompile Include="ClientApp\src\comman\SecurityCheck.ts">
       <SubType>Code</SubType>
     </TypeScriptCompile>
