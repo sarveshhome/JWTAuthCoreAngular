@@ -2,3 +2,7 @@
 2021-04-25T16:15:52.4022793+01:00  [INF] Hosting environment: "Development" (c3307c92)
 2021-04-25T16:15:52.4024993+01:00  [INF] Content root path: "C:\Users\sony\source\repos\MVCJWTTokenDemo\MVCJWTTokenDemo" (b5d60022)
 2021-04-25T16:15:55.1748960+01:00 8000000e-0002-f900-b63f-84710c7967bb [INF] Log message in the GetProducts() method (739392ab)
+2021-04-25T18:08:21.6486438+01:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-04-25T18:08:21.7053087+01:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-04-25T18:08:21.7056707+01:00  [INF] Content root path: "C:\Users\sony\source\repos\MVCJWTTokenDemo\MVCJWTTokenDemo" (b5d60022)
+2021-04-25T18:08:24.4511037+01:00 80000002-0003-fc00-b63f-84710c7967bb [INF] Log message in the GetProducts() method (739392ab)

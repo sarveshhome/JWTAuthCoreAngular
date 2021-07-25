@@ -1,0 +1,13 @@
+C:\Users\sony\source\repos\MVCJWTTokenDemo\servicesstag\bin\Release\netcoreapp2.0\win-x64\web.config
+C:\Users\sony\source\repos\MVCJWTTokenDemo\servicesstag\bin\Release\netcoreapp2.0\win-x64\appsettings.Development.json
+C:\Users\sony\source\repos\MVCJWTTokenDemo\servicesstag\bin\Release\netcoreapp2.0\win-x64\appsettings.json
+C:\Users\sony\source\repos\MVCJWTTokenDemo\servicesstag\bin\Release\netcoreapp2.0\win-x64\Properties\launchSettings.json
+C:\Users\sony\source\repos\MVCJWTTokenDemo\servicesstag\bin\Release\netcoreapp2.0\win-x64\servicesstag.deps.json
+C:\Users\sony\source\repos\MVCJWTTokenDemo\servicesstag\bin\Release\netcoreapp2.0\win-x64\servicesstag.runtimeconfig.json
+C:\Users\sony\source\repos\MVCJWTTokenDemo\servicesstag\bin\Release\netcoreapp2.0\win-x64\servicesstag.runtimeconfig.dev.json
+C:\Users\sony\source\repos\MVCJWTTokenDemo\servicesstag\bin\Release\netcoreapp2.0\win-x64\servicesstag.dll
+C:\Users\sony\source\repos\MVCJWTTokenDemo\servicesstag\bin\Release\netcoreapp2.0\win-x64\servicesstag.pdb
+C:\Users\sony\source\repos\MVCJWTTokenDemo\servicesstag\obj\Release\netcoreapp2.0\win-x64\servicesstag.AssemblyInfoInputs.cache
+C:\Users\sony\source\repos\MVCJWTTokenDemo\servicesstag\obj\Release\netcoreapp2.0\win-x64\servicesstag.AssemblyInfo.cs
+C:\Users\sony\source\repos\MVCJWTTokenDemo\servicesstag\obj\Release\netcoreapp2.0\win-x64\servicesstag.dll
+C:\Users\sony\source\repos\MVCJWTTokenDemo\servicesstag\obj\Release\netcoreapp2.0\win-x64\servicesstag.pdb

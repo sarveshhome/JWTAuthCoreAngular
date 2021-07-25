@@ -19,15 +19,18 @@ export class PatientaddComponent implements OnInit {
   
   }
   generateQuickGuid() {
-  return Math.random().toString(36).substring(2, 15) +
-    Math.random().toString(36).substring(2, 15);
+  return Math.random() +  Math.random();
 }
 
   AddPatient() {
-
+    var Problems: any = {};
+    Problems.id = this.generateQuickGuid();
+    Problems.description = "test descriptioon";
     var patient: any = {};
     patient.id = this.generateQuickGuid();
     patient.patientName = "Sarvesh";
+    patient.Problems = Problems;
+    
     var observable = this._http.post(this.apiUrl + '/api/patient', patient);
     observable.subscribe(res => this.Success(res), res => this.Error(res));
 
