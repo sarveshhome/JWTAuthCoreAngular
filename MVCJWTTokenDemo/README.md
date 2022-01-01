@@ -122,5 +122,26 @@ https://localhost:44379/api/login
 
 
 
+# Use Sessions In ASP.NET Core
 
+- "Microsoft.AspNetCore.Session" from the NuGet Package Manager
+
+-> Startup.cs -> configureServices
+
+
+  services.AddSession(options => {  
+        options.IdleTimeout = TimeSpan.FromMinutes(1);//You can set Time   
+    }); 
+
+
+- Configure the HTTP Request Pipeline
+
+  app.UseSession();  
+
+  In Controller -
+     HttpContext.Session.SetString(SessionName, "sarvesh");  
+     HttpContext.Session.SetString(SessionName, "Jarvik");  
+
+- Get Session
+       HttpContext.Session.GetString(SessionName);    
 
