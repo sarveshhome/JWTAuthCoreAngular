@@ -88,9 +88,11 @@ namespace MVCJWTTokenDemo
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Product API", Version = "v1", Description="An API for Products",TermsOfService= new Uri("https://example.com/terms") });
                 c.SwaggerDoc("v2", new OpenApiInfo { Title = "Weather API", Version = "V2", Description = "An PI for Weather" });
             });
+            //Add session in services
+            services.AddSession((options) => { options.IdleTimeout = TimeSpan.FromMinutes(30); });
+
             services.AddControllers();
-            services.AddSingleton<IProductsService, ProductsService>();
-            
+            services.AddSingleton<IProductsService, ProductsService>();            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -117,6 +119,8 @@ namespace MVCJWTTokenDemo
             //options.DefaultFileNames.Add("index.html");
             //app.UseDefaultFiles(options);
             app.UseStaticFiles();
+            //add session in Middleware
+            app.UseSession();
 
             app.UseEndpoints(endpoints =>
             {
