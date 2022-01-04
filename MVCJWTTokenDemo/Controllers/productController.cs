@@ -6,7 +6,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using MVCJWTTokenDemo.Model;
 using MVCJWTTokenDemo.Services;
-
+//using Microsoft.AspNetCore.JsonPatch;
+//using Microsoft.AspNetCore.Mvc.NewtonsoftJson;
 namespace MVCJWTTokenDemo.Controllers
 {
     [ApiController]
@@ -56,6 +57,11 @@ namespace MVCJWTTokenDemo.Controllers
         }
         [HttpPut("/api/products/{id}")]
         public ActionResult<Product> UpdateProduct(string id, Product productItem)
+        {
+            return _service.UpdateProduct(id, productItem);
+        }
+        [HttpPatch("/api/products/{id}")]
+        public ActionResult<Product> updateProduct(string id, Product productItem)
         {
             return _service.UpdateProduct(id, productItem);
         }
