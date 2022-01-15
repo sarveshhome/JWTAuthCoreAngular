@@ -112,3 +112,12 @@ JWTToken - https://jwt.io/introduction
 
 
 
+
+
+            // migration enable in .net core
+
+            Add-Migration MVCJWTTokenDemo.DAL.DBContext -Context DBContext
+
+            //update 
+
+            update-database -Context DBContext

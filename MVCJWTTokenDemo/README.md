@@ -145,3 +145,16 @@ https://localhost:44379/api/login
 - Get Session
        HttpContext.Session.GetString(SessionName);    
 
+
+
+---------------------
+
+
+
+            // migration enable in .net core
+
+            Add-Migration MVCJWTTokenDemo.DAL.DBContext -Context DBContext
+
+            //update 
+
+            update-database -Context DBContext

@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = DotNetCoreWebAPIPractice
-build_property.ProjectDir = C:\Users\sony\source\repos\MVCJWTTokenDemo\DotNetCoreWebAPIPractice\
+build_property.ProjectDir = D:\sarvesh\Practice\DotNetCore\JWTAuthCoreAngular\DotNetCoreWebAPIPractice\
