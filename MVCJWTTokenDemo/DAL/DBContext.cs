@@ -12,7 +12,7 @@ namespace MVCJWTTokenDemo.DAL
     public class DBContext: DbContext
     {
         public DBContext(DbContextOptions<DBContext> options) : base(options) {
-            Database.Migrate();
+            
         }
         public DbSet<MEmployee> Emp { get; set; }
     }

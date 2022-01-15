@@ -123,4 +123,10 @@ https://localhost:44379/api/login
 
 
 
+Error : 
+
+Inner Exception 1:
+SqlException: Cannot insert explicit value for identity column in table 'Emp' when IDENTITY_INSERT is set to OFF.
+
+
 
