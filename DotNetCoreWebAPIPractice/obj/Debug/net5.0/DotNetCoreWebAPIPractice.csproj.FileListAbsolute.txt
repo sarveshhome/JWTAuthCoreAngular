@@ -55,3 +55,4 @@ D:\sarvesh\Practice\DotNetCore\JWTAuthCoreAngular\DotNetCoreWebAPIPractice\obj\D
 D:\sarvesh\Practice\DotNetCore\JWTAuthCoreAngular\DotNetCoreWebAPIPractice\obj\Debug\net5.0\DotNetCoreWebAPIPractice.dll
 D:\sarvesh\Practice\DotNetCore\JWTAuthCoreAngular\DotNetCoreWebAPIPractice\obj\Debug\net5.0\ref\DotNetCoreWebAPIPractice.dll
 D:\sarvesh\Practice\DotNetCore\JWTAuthCoreAngular\DotNetCoreWebAPIPractice\obj\Debug\net5.0\DotNetCoreWebAPIPractice.genruntimeconfig.cache
+D:\sarvesh\Practice\DotNetCore\JWTAuthCoreAngular\DotNetCoreWebAPIPractice\obj\Debug\net5.0\DotNetCoreWebAPIPractice.csproj.AssemblyReference.cache

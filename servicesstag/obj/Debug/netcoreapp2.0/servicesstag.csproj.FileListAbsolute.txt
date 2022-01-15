@@ -28,3 +28,4 @@ D:\sarvesh\Practice\DotNetCore\JWTAuthCoreAngular\servicesstag\bin\Debug\netcore
 D:\sarvesh\Practice\DotNetCore\JWTAuthCoreAngular\servicesstag\bin\Debug\netcoreapp2.0\web.config
 D:\sarvesh\Practice\DotNetCore\JWTAuthCoreAngular\servicesstag\obj\Debug\netcoreapp2.0\servicesstag.GeneratedMSBuildEditorConfig.editorconfig
 D:\sarvesh\Practice\DotNetCore\JWTAuthCoreAngular\servicesstag\obj\Debug\netcoreapp2.0\servicesstag.genruntimeconfig.cache
+D:\sarvesh\Practice\DotNetCore\JWTAuthCoreAngular\servicesstag\obj\Debug\netcoreapp2.0\servicesstag.csproj.AssemblyReference.cache
