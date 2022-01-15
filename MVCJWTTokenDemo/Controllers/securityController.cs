@@ -26,31 +26,31 @@ namespace MVCJWTTokenDemo.Controllers
         }       
 
         // Step 1 :- Generate 
-        public string GenerateJSONWebToken()
-        {
-            // when he is validated AD
-            var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]));
-            var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
-            var claims = new[] {
-                new Claim(JwtRegisteredClaimNames.Sub, "sar"),
-                new Claim(JwtRegisteredClaimNames.Email, "sarveshmcasoft@gmail.com"),
-                new Claim("Role", "Admin"),
-                new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
-                };
-            var token = new JwtSecurityToken(_config["Jwt:Issuer"],
-              _config["Jwt:Issuer"],
-              claims,
-              expires: DateTime.Now.AddMinutes(120),
-              signingCredentials: credentials);
+        //public string GenerateJSONWebTokens1()
+        //{
+        //    // when he is validated AD
+        //    var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]));
+        //    var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
+        //    var claims = new[] {
+        //        new Claim(JwtRegisteredClaimNames.Sub, "sar"),
+        //        new Claim(JwtRegisteredClaimNames.Email, "sarveshmcasoft@gmail.com"),
+        //        new Claim("Role", "Admin"),
+        //        new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
+        //        };
+        //    var token = new JwtSecurityToken(_config["Jwt:Issuer"],
+        //      _config["Jwt:Issuer"],
+        //      claims,
+        //      expires: DateTime.Now.AddMinutes(120),
+        //      signingCredentials: credentials);
 
-            return new JwtSecurityTokenHandler().WriteToken(token);
-        }
+        //    return new JwtSecurityTokenHandler().WriteToken(token);
+        //}
         [HttpPost("/api/login")]
         public IActionResult Login(User user)
         {
             if (user.userName == "Sar")
             {
-                string str = GenerateJSONWebToken();
+                string str = "";// GenerateJSONWebTokens1();
 
                 //return Content(str);
                 var token = new Token() { Value = str };

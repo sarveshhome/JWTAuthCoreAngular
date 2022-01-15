@@ -193,24 +193,30 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sony\\.nuget\\packages\\": {},
+    "C:\\Users\\CCI\\.nuget\\packages\\": {},
+    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sony\\source\\repos\\MVCJWTTokenDemo\\DotNetCoreWebAPIPractice\\DotNetCoreWebAPIPractice.csproj",
+      "projectUniqueName": "D:\\sarvesh\\Practice\\DotNetCore\\JWTAuthCoreAngular\\DotNetCoreWebAPIPractice\\DotNetCoreWebAPIPractice.csproj",
       "projectName": "DotNetCoreWebAPIPractice",
-      "projectPath": "C:\\Users\\sony\\source\\repos\\MVCJWTTokenDemo\\DotNetCoreWebAPIPractice\\DotNetCoreWebAPIPractice.csproj",
-      "packagesPath": "C:\\Users\\sony\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sony\\source\\repos\\MVCJWTTokenDemo\\DotNetCoreWebAPIPractice\\obj\\",
+      "projectPath": "D:\\sarvesh\\Practice\\DotNetCore\\JWTAuthCoreAngular\\DotNetCoreWebAPIPractice\\DotNetCoreWebAPIPractice.csproj",
+      "packagesPath": "C:\\Users\\CCI\\.nuget\\packages\\",
+      "outputPath": "D:\\sarvesh\\Practice\\DotNetCore\\JWTAuthCoreAngular\\DotNetCoreWebAPIPractice\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\sony\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\CCI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -258,7 +264,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
       }
     }
   }
