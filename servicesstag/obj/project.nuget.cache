@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "OGX9ZFBEBC5SyWpMYjje7n9QrDSqHU74aNKjv0Bv2XW+4Yfnoktvb6B6t9dNFmpzDjw6b1fmPLSb4wFJFmuZbA==",
+  "dgSpecHash": "/D62SPDB7tPaAR4THiF+rw+Jsijum0srR0K2c6TTmTMQ4fRJENWJQpR4PpykBzQ48D7ka6kMIrLHmlfSBQ0u1Q==",
   "success": true,
   "projectFilePath": "D:\\sarvesh\\Practice\\DotNetCore\\JWTAuthCoreAngular\\servicesstag\\servicesstag.csproj",
   "expectedPackageFiles": [
@@ -235,7 +235,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.collections.concurrent\\4.3.0\\system.collections.concurrent.4.3.0.nupkg.sha512",
     "C:\\Users\\CCI\\.nuget\\packages\\system.collections.immutable\\1.4.0\\system.collections.immutable.1.4.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.collections.nongeneric\\4.3.0\\system.collections.nongeneric.4.3.0.nupkg.sha512",
+    "C:\\Users\\CCI\\.nuget\\packages\\system.collections.nongeneric\\4.3.0\\system.collections.nongeneric.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.collections.specialized\\4.3.0\\system.collections.specialized.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.componentmodel\\4.3.0\\system.componentmodel.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.componentmodel.annotations\\4.5.0\\system.componentmodel.annotations.4.5.0.nupkg.sha512",

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using MVCJWTTokenDemo.Model;
@@ -48,6 +49,7 @@ namespace MVCJWTTokenDemo.Controllers
         [HttpPost("/api/products")]
         [ProducesResponseType(201)]
         [ProducesResponseType(400)]
+        [ProducesResponseType(StatusCodes.Status403Forbidden)]
         public ActionResult<Product> AddProduct(Product product)
         {
             _logger.LogInformation("Log message in the AddProduct() method"+ product) ;

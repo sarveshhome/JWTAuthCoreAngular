@@ -15,3 +15,4 @@ D:\sarvesh\Practice\DotNetCore\JWTAuthCoreAngular\TestAppDemo\obj\Release\net5.0
 D:\sarvesh\Practice\DotNetCore\JWTAuthCoreAngular\TestAppDemo\obj\Release\net5.0\ref\TestAppDemo.dll
 D:\sarvesh\Practice\DotNetCore\JWTAuthCoreAngular\TestAppDemo\obj\Release\net5.0\TestAppDemo.pdb
 D:\sarvesh\Practice\DotNetCore\JWTAuthCoreAngular\TestAppDemo\obj\Release\net5.0\TestAppDemo.genruntimeconfig.cache
+D:\sarvesh\Practice\DotNetCore\JWTAuthCoreAngular\TestAppDemo\obj\Release\net5.0\TestAppDemo.csproj.AssemblyReference.cache

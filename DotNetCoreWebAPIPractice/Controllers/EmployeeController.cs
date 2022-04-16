@@ -4,6 +4,8 @@ using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
+using System.Net.Http;
 using System.Threading.Tasks;
 
 namespace DotNetCoreWebAPIPractice.Controllers
@@ -32,6 +34,9 @@ namespace DotNetCoreWebAPIPractice.Controllers
             return "";
         }
 
-
+        //public HttpResponseMessage AddPatients()
+        //{
+        //    return actionContext.Request.CreateResponse(HttpStatusCode.Unauthorized);
+        //}
     }
 }

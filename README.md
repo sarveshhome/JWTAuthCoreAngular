@@ -121,6 +121,19 @@ Install-Package Serilog.Extensions.Logging.File -Version 2.0.0
 https://localhost:44379/api/login
 
 
+--------------------
+
+-
+
+
+            // migration enable in .net core
+
+            `Add-Migration MVCJWTTokenDemo.DAL.DBContext -Context DBContext`
+
+            //update 
+
+            `update-database -Context DBContext`
+
 
 
 Error : 

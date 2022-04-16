@@ -21040,24 +21040,30 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sony\\.nuget\\packages\\": {},
+    "C:\\Users\\CCI\\.nuget\\packages\\": {},
+    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sony\\source\\repos\\MVCJWTTokenDemo\\servicesstag\\servicesstag.csproj",
+      "projectUniqueName": "D:\\sarvesh\\Practice\\DotNetCore\\JWTAuthCoreAngular\\servicesstag\\servicesstag.csproj",
       "projectName": "staginghelperservices",
-      "projectPath": "C:\\Users\\sony\\source\\repos\\MVCJWTTokenDemo\\servicesstag\\servicesstag.csproj",
-      "packagesPath": "C:\\Users\\sony\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sony\\source\\repos\\MVCJWTTokenDemo\\servicesstag\\obj\\publish\\win-x64\\",
+      "projectPath": "D:\\sarvesh\\Practice\\DotNetCore\\JWTAuthCoreAngular\\servicesstag\\servicesstag.csproj",
+      "packagesPath": "C:\\Users\\CCI\\.nuget\\packages\\",
+      "outputPath": "D:\\sarvesh\\Practice\\DotNetCore\\JWTAuthCoreAngular\\servicesstag\\obj\\publish\\win-x64\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\sony\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\CCI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
@@ -21068,6 +21074,7 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
+          "targetAlias": "netcoreapp2.0",
           "projectReferences": {}
         }
       },
@@ -21079,6 +21086,7 @@
     },
     "frameworks": {
       "netcoreapp2.0": {
+        "targetAlias": "netcoreapp2.0",
         "dependencies": {
           "Microsoft.AspNetCore.All": {
             "target": "Package",
@@ -21125,7 +21133,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.114\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

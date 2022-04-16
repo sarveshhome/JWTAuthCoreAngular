@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "971sIkXlC9YE9+/c1OBy0PdFtJMZLvNwwSM1KqKLzFvY1FnjRWUKjhnYhwehMnJNyhAbvSpL/h6K7zy11IKmGA==",
+  "dgSpecHash": "zUv7oBPGIx74voUy4XzbIa8zf4gYGYkvdenxY1sLQBXM7yiQfDYLPppx743kiREqzlanNMY2elJ97GMrP+9mgw==",
   "success": true,
   "projectFilePath": "D:\\sarvesh\\Practice\\DotNetCore\\JWTAuthCoreAngular\\TestAppDemo\\TestAppDemo.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\CCI\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+    "C:\\Users\\CCI\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\CCI\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.15\\microsoft.netcore.app.host.win-x64.5.0.15.nupkg.sha512"
   ],
   "logs": []
 }
