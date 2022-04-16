@@ -78,7 +78,7 @@ namespace MVCJWTTokenDemo
                {
                    ValidateIssuer = true,
                    ValidateAudience = true,
-                   ValidateLifetime = true,
+                   ValidateLifetime = true, 
                    ValidateIssuerSigningKey = true,
                    ValidIssuer = Configuration["Jwt:Issuer"],
                    ValidAudience = Configuration["Jwt:Issuer"],

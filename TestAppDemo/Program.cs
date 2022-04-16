@@ -8,6 +8,7 @@ namespace TestAppDemo
     {
         static void Main(string[] args)
         {
+
             Goldmedal objgoldmedal = new Goldmedal()
             {
                 journeys = new journeys()

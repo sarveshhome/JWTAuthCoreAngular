@@ -6,6 +6,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <_PublishTargetUrl>C:\Users\sony\source\repos\MVCJWTTokenDemo\servicesstag\bin\Release\netcoreapp2.0\publish\</_PublishTargetUrl>
+    <_PublishTargetUrl>D:\sarvesh\Practice\DotNetCore\JWTAuthCoreAngular\servicesstag\bin\Release\netcoreapp2.0\publish\</_PublishTargetUrl>
+    <History>True|2022-02-13T14:33:50.7713630Z;</History>
   </PropertyGroup>
 </Project>
